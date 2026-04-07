@@ -25,8 +25,8 @@ Gem::Specification.new do |spec|
   # More recent versions of icalendar drop support for Ruby 1.8.7
   spec.add_development_dependency "icalendar", "~> 2.7"
   spec.add_development_dependency "json", "~> 2.3"
-  spec.add_dependency "sequel", "~> 5.90.0"
-  spec.add_dependency "sqlite3", "~> 1.4"
+  spec.add_dependency "sequel", ">= 5.90", "< 6"
+  spec.add_dependency "sqlite3", ">= 1.4", "< 3"
 
   spec.add_dependency "chronic", "~> 0.10.2"
 end
